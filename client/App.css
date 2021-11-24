@@ -1,0 +1,488 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.logo{
+    position: absolute;
+    z-index: 1;
+    top: 3%;
+    left: 5%;
+    height: auto;
+    width: auto;
+}
+.logo1{
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 33%;
+  width:35%;
+  height: auto;
+}
+.footer{
+  min-height: 60vh;
+  background-color: black;
+  color:white;
+  font-family: 'Poppins';
+  overflow: hidden;
+  margin-top: 10%;
+}
+.f1{
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+  float: left;
+}
+.f2{
+  width: 8%;
+  margin-left: 3%;
+  margin-top: 2.5%;
+  float: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+}
+.f6{
+  width: 50%;
+  margin-left: 6%;
+  margin-top: 5%;
+  float: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+}
+.f7{
+  width: 50%;
+  margin-left: 6%;
+  margin-top: 0%;
+  float: left;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-transform: uppercase;
+}
+.f3{
+  padding-top: 12px;
+  height: 50px;
+  width: 12%;
+  float: left;
+  text-align: center;
+  background: #1A7847;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 12pt;overflow: hidden;
+}
+.f4{
+  padding-top: 12px;
+  height:50px;
+  width: 13%;
+  float: left;
+  text-align: center;
+  background: #1A7847;
+  border-radius: 5px;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 12pt;overflow: hidden;
+}
+.f5{
+  padding-top: 12px;
+  height:50px;
+  width: 15%;
+  float: left;
+  text-align: center;
+  background: #1A7847;
+  border-radius: 5px;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 12pt;overflow: hidden;
+}
+.main{
+  display: inline;
+  min-height: 60vh;
+  background-color: white;
+  font-family: 'Poppins';
+}
+.m1{
+  font-style: normal;
+  color:#00864F;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+}
+.m2{
+  width: 25%;
+  height: 450px;
+  margin-left: 3%;
+  padding-left: 0px;
+  top: 934px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px -6px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.m3{
+  padding: 3%;
+  width: 100%;
+  height: 60%;
+  left: 566.09px;
+  top: 945.62px;
+  border-radius: 50px;
+}
+.m4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight:bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 136% */
+  letter-spacing: -0.03em;
+  padding-left: 5%;
+  padding-top: 8%;
+  color: #5A5C6F;
+}
+.m5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 4%;
+  width: 50%;
+  float:left;
+  color: #5A5C6F;
+}
+.m6{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+/* identical to box height */
+  color: #FFFFFF;
+  background: #1A7847;
+  border: 1px solid  #1A7847;
+  border-radius: 24px;
+  height: 12%;
+  width: 40%;
+  margin-left: 50%;
+}
+
+.AddProperty{
+  font-style:normal;
+  font-weight: bold;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border:transparent;
+  color: white; 
+  font-family: 'Poppins';
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  position: absolute;
+  z-index: 1;
+  top: 6%;
+  right: 22%;
+}
+.SignIn{
+  font-style: normal;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  color: white; 
+  font-family: 'Poppins';
+  position: fixed;
+  z-index: 1;
+  width: 6%;
+  height: 7%;
+  top: 4%;
+  right: 14%;
+  border: 2px solid #00864F;
+  border-radius: 20px;
+}
+.SignUp{
+  font-style: normal;
+  color: white; 
+  text-align: center;
+  font-family: 'Poppins';
+  position: fixed;
+  z-index: 1;
+  width: 6%;
+  height: 7%;
+  top: 4%;
+  right: 6%;
+  border: 2px solid #00864F;
+  background: #00864F;
+  box-shadow: 0px 4.22841px 10.269px rgba(0, 134, 79, 0.15);
+  border-radius: 24px;
+}
+.SearchBar{
+  font-style: normal;
+  color: white; 
+  font-family: 'Poppins';
+  position: absolute;
+  display: flex;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid #FFF;
+  background: #FFF;
+  box-shadow: 0px 4.22841px 10.269px rgba(0, 134, 79, 0.15);
+  width: 60%;
+  margin-left: 20%;
+  height: 32%;
+  border-radius: 100px;
+}
+.SearchBar1{
+  font-style: normal;
+  font-family: 'Poppins';
+  position: absolute;
+  display: flex;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 60%;
+  margin-left: 20%;
+  height: 60%;
+  border-radius: 100px;
+}
+.cirMenu{
+  width: 25%;
+  margin-top: 22%;
+  position:static;
+}
+.cirMenu1{
+  width: 15%;
+  position: fixed;
+  top: 70%;
+  right: 20%;
+}
+.cirMenu2{
+  width: 15%;
+  position: fixed;
+  top: 70%;
+  left: 20%;
+
+}
+.cirMenu3{
+  width: 15%;
+  position: fixed;
+  top: 39%;
+  left: 22%;
+}
+
+.cirMenu4{
+  width: 15%;
+  position: fixed;
+  top: 39%;
+  left: 63%;
+}
+
+.cirMenu5{
+  width: 15%;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+}
+
+.cirMenu6{
+  width: 15%;
+  position: fixed;
+  top: 15%;
+  left: 35%;
+}
+.btnBUY
+{
+  text-align: center;
+  width: 12%;
+  height: 22%;
+  font-size: large;
+  font-weight: bold;
+  border:transparent;
+  background: #FFFFFF;
+  box-shadow: 0px 12.6852px 25.9745px rgba(0, 0, 0, 0.1);
+  border-radius: 80px;
+  position: absolute;
+  left:9%;
+  top: 10%;
+}
+.btnRENT
+{
+  text-align: center;
+  width: 10%;
+  height: 22%;
+  font-size: large;
+  font-weight: bold;
+  border:transparent;
+  background: #00864F;
+  color: white;
+  box-shadow: 0px 12.6852px 25.9745px rgba(0, 0, 0, 0.1);
+  border-radius: 80px;
+  position: absolute;
+  left: 26%;
+  top: 10%;
+}
+.btnInvest
+{
+  text-align: center;
+  width: 12%;
+  height: 22%;
+  font-size: large;
+  font-weight: bold;
+  border:transparent;
+  background: #FFFFFF;
+  box-shadow: 0px 12.6852px 25.9745px rgba(0, 0, 0, 0.1);
+  border-radius: 80px;
+  position: absolute;
+  left:40%;
+  top: 10%;
+}
+.propertymenu
+{
+  position: relative;
+  margin-top: 9%;
+  width: 20%;
+  align-items: center;
+  margin-left: 10%;
+  text-align: left;
+  border-right: 1px solid #F4F4F4; 
+}
+.propertymenu1
+{
+  position: relative;
+  margin-top: 9%;
+  width: 30%;
+  align-items: center;
+  margin-left: 2%;
+  text-align: left;
+  border-right: 1px solid #F4F4F4; 
+}
+.propertymenu2
+{
+  position: relative;
+  margin-top: 9%;
+  width: 20%;
+  align-items: center;
+  margin-left: 2%;
+  text-align: left;
+}
+.propertymenu3{
+  border-left:  1px solid #F4F4F4;
+  height: 70%;
+  margin-top: 4%;
+}
+.propertymenu4{
+  border-left:  1px solid #F4F4F4;
+  height: 70%;
+  margin-top: 6%;
+  align-items: center;
+  position: relative;
+  width:30%;
+}
+.tag1
+{
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vmin;
+  padding : 0;
+  margin : 0;
+}
+.tag2{
+  color: #7E7E7E;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vmin;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
